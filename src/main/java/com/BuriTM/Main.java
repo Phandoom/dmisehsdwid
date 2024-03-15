@@ -11,7 +11,7 @@ public class Main
 
         Quadrat quadrat1 = new Quadrat(50, 50, 100, 100);
         Viereck viereck1 = new Viereck(150, 150, 30, 70);
-        Kreis kreis1 = new Kreis(200, 200, 80);
+        Kreis kreis1 = new Kreis(2, 2, 4);
 
         formen[0] = quadrat1;
         formen[1] = viereck1;
@@ -20,7 +20,7 @@ public class Main
         int i = 0;
         while (formen[i] != null && i < 10)
         {
-            System.out.println(formen[i].berechneFläche());
+            System.out.println(formen[i].berechneFlaeche());
             System.out.println(formen[i].berechneUmfang());
             i++;
         }

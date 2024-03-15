@@ -18,7 +18,7 @@ public class Kreis extends Form
         return umfang;
     }
 
-    public double berechneFläche()
+    public double berechneFlaeche()
     {
         System.out.print("berechne Fläche Kreis: ");
         double fläche = Math.PI * Math.pow(this.radius,2);

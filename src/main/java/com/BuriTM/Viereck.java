@@ -20,7 +20,7 @@ public class Viereck extends Form
         return umfang;
     }
 
-    public double berechneFläche()
+    public double berechneFlaeche()
     {
         System.out.print("berechne Fläche Viereck: ");
         double fläche;

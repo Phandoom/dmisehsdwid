@@ -16,7 +16,7 @@ abstract public class Form
     abstract public double berechneUmfang();
 
     //Funktion muss in den Subklassen überschrieben werden
-    abstract public double berechneFläche();
+    abstract public double berechneFlaeche();
 
     public int getX()
     {

@@ -16,7 +16,7 @@ public class Quadrat extends Viereck
         return umfang;
     }
 
-    public double berechneFläche()
+    public double berechneFlaeche()
     {
         System.out.print("berechne Fläche Quadrat: ");
         double fläche;
